@@ -173,7 +173,7 @@ checkoutBtn.addEventListener("click", function(){
 function checkHamburgueriaOpen(){
     const data = new Date();
     const hora = data.getHours();
-    return hora >= 0o0 && hora < 0o5; 
+    return hora >= 19 && hora < 0o0; 
 }
 
 const spanItem = document.getElementById("date-span")
