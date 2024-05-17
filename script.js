@@ -24,7 +24,7 @@ cartModal.addEventListener("click", function(event){
 closeModalBtn.addEventListener("click", function(){
     cartModal.style.display = "none"
 })
-
+ 
 menu.addEventListener("click", function(event){
 let parentButton = event.target.closest(".add-to-cart-btn")
 if(parentButton){
@@ -167,13 +167,13 @@ checkoutBtn.addEventListener("click", function(){
 
     cart.length = 0
     updateCartModal();
-
+ 
 })
 
 function checkHamburgueriaOpen(){
     const data = new Date();
     const hora = data.getHours();
-    return hora >= 19 && hora < 0o0; 
+    return hora >= 18 && hora <=24; 
 }
 
 const spanItem = document.getElementById("date-span")

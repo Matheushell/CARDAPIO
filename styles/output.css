@@ -691,6 +691,10 @@ video {
   z-index: 99;
 }
 
+.col-end-1 {
+  grid-column-end: 1;
+}
+
 .float-start {
   float: inline-start;
 }
@@ -889,8 +893,8 @@ video {
   height: 7rem;
 }
 
-.h-32 {
-  height: 8rem;
+.h-44 {
+  height: 11rem;
 }
 
 .h-\[420px\] {
@@ -905,8 +909,8 @@ video {
   width: 7rem;
 }
 
-.w-32 {
-  width: 8rem;
+.w-44 {
+  width: 11rem;
 }
 
 .w-\[this-is\\\\\] {
@@ -927,6 +931,10 @@ video {
 
 .min-w-\[90\%\] {
   min-width: 90%;
+}
+
+.max-w-4xl {
+  max-width: 56rem;
 }
 
 .max-w-7xl {
@@ -2181,11 +2189,6 @@ video {
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
-}
-
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
 }
 
 .text-lg {

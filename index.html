@@ -29,14 +29,16 @@
 
     <!--HEADER-->
 
-    <header class="w-full h-[420px] bg-zinc-900 bg-home bg-cover bg-center">
-        <div class="w-full h-full flex flex-col justify-center items-center">
+    <header class="w-full h-[420px] bg-zinc-900 bg-home bg-cover bg-center col-end-1">
+        <div class=" w-full h-full flex flex-col justify-center items-center ">
             <img src="./assets/novalogo-2.jpeg" alt="logo devburguer"
-                class="w-32 h-32 rounded-full shadow-lg hover:scale-110 duration-200" />
+                class="w-44 h-44 rounded-full shadow-lg hover:scale-110 duration-200" />
 
-            <h1 class="text-4xl mt-4 mb-2 font-bold text-black-500"> vivix hamburgueria </h1>
+              
 
-            <span class="text-white font-medium "> praia da pipa, Nº1000 - Tibau do Sul </span>
+                <span class="text-white font-medium "> praia da pipa, Nº1000 - Tibau do Sul </span>
+    
+         
 
             <div class="bg-green-600 px-4 py-1 rounded-lg mt-5" id="date-span">
                 <span class="text-white font-medium"> Segunda à Sábado - 18:00 as 00:00 </span>
@@ -52,7 +54,7 @@
         CARDÁPIO</h2>
 
     <div id="menu">
-        <main class="grid grid-cols-1 md:grid-cols-2 gap-7 md:gap-10 mx-auto max-w-7xl px-2 mb-16">
+        <main class="grid grid-cols-1 md:grid-cols-2 gap-7 md:gap-10 mx-auto max-w-4xl px-2 mb-16">
             <div class="flex gap-2">
                 <img src="./assets/tradicional.txt
                 " alt="hamburguer"
@@ -63,6 +65,12 @@
                     </p>
                     <p class="text-sm">
                         Pão, hambúrguer industrial, queijo mussarela, ovo, cebola roxa, tomate, alface e molho especial.
+
+                        <i
+                        class="fa fa-cart-plus text-lg text-white"></i>
+
+
+
                     </p>
                     <div class="flex items-center gap-2 justify-between mt-3">
                         <p class="font-bold text-lg">
@@ -453,11 +461,11 @@
 
         </main>
 
-        <div class="mx-auto max-w-7xl px-2 my-2">
+        <h2 class="text-2xl md:text-3xl font-bold text-center mt-9 mb-6">
+            PASTÉIS</h2>
+            <div id="menu">
 
-            <h2 class="text-2xl md:text-3xl font-bold text-center mt-9 mb-6">
-                PASTEIS</h2>
-    <div  class="grid grid-cols-1 md:grid-cols-2 gap-7 md:gap-10 mx-auto max-w-7xl px-2 mb-16" id="menu">
+       <main class="grid grid-cols-1 md:grid-cols-2 gap-7 md:gap-10 mx-auto max-w-4xl px-2 mb-16">
 
 
     <div class="flex gap-2">
@@ -468,7 +476,9 @@
                 Pastel sabor Marguerita
             </p>
             <p class="text-sm">
-                pastel feito na hora, sequinho e crocante.
+                Experimente o irresistível Pastel Marguerita: uma combinação perfeita de tomate fresco,
+                 queijo muçarela derretido e manjericão,
+                 tudo envolto em uma massa crocante e dourada. Um sabor clássico que vai conquistar o seu paladar!
             </p>
             <div class="flex items-center gap-2 justify-between mt-3">
                 <p class="font-bold text-lg">
@@ -477,7 +487,7 @@
                 <button class="bg-gray-900 px-5 rounded add-to-cart-btn" 
                 data-name="Pastel sabor Marguerita"
                 data-price="10.00">
-                    <i
+                    <i   
                     class="fa fa-cart-plus text-lg text-white"></i>
                     
                 </button>
@@ -496,7 +506,9 @@
                 Pastel sabor pizza
             </p>
             <p class="text-sm">
-                pastel feito na hora, sequinho e crocante.
+                Delicie-se com o sabor inconfundível do Pastel de Pizza: uma combinação perfeita de molho de tomate,
+                 queijo muçarela derretido, presunto e orégano, tudo envolto em uma massa crocante e dourada.
+                 Uma verdadeira festa para o seu paladar!
             </p>
             <div class="flex items-center gap-2 justify-between mt-3">
                 <p class="font-bold text-lg">
@@ -523,7 +535,9 @@
                 Pastel sabor frango com bacon e mussarela.
             </p>
             <p class="text-sm">
-                pastel feito na hora, sequinho e crocante.
+                Descubra o sabor incrível do Pastel de Frango com Bacon e Mussarela: frango desfiado temperado,
+                 pedaços crocantes de bacon e queijo mussarela derretido em uma massa crocante e dourada.
+                 Uma explosão de sabores em cada mordida!
             </p>
             <div class="flex items-center gap-2 justify-between mt-3">
                 <p class="font-bold text-lg">
@@ -544,14 +558,15 @@
 
 
     <div class="flex gap-2">
-        <img src="./assets/pastelsaborfrango.txt" alt="hamburguer"
+        <img src="./assets/frangocomcatupiry.png" alt="hamburguer"
             class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300" />
         <div class="w-full">
             <p class="font-bold">
-                Pastel sabor frango com bacon e mussarela
+                Pastel sabor frango catupiry
             </p>
             <p class="text-sm">
-                pastel feito na hora, sequinho e crocante.
+                Experimente a perfeição do Pastel de Frango com Catupiry: frango desfiado e temperado combinado com a cremosidade do Catupiry,
+                 envoltos em uma massa crocante e dourada. Uma delícia que vai te conquistar a cada mordida!
             </p>
             <div class="flex items-center gap-2 justify-between mt-3">
                 <p class="font-bold text-lg">
@@ -573,7 +588,7 @@
           
 
 </div>
-
+</main> 
         
         <div class="mx-auto max-w-7xl px-2 my-2">
 
@@ -584,8 +599,10 @@
     <!--GRID DE BEBIDADAS-->
 
     
-    <div  class="grid grid-cols-1 md:grid-cols-2 gap-7 md:gap-10 mx-auto max-w-7xl px-2 mb-16" id="menu">
+    <div id="menu">
 
+        <main class="grid grid-cols-1 md:grid-cols-2 gap-7 md:gap-10 mx-auto max-w-4xl px-2 mb-16">
+ 
         <div class="flex gap-2 w-full ">
         
        
@@ -619,7 +636,7 @@
         
     <div class="flex gap-2 w-full">
             
-        <img src="./assets/spritlata.txt" 
+        <img src="./assets/sprytelatatrasparente.png" 
         alt="sprite lata"
             class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300" />
         <div class="w-full">
@@ -673,7 +690,7 @@
 <div class="flex gap-2 w-full
         
         ">
-    <img src="./assets/cocateste.jpg" alt="hamburguer"
+    <img src="./assets/cocacola1Ltrasparente.png" alt="hamburguer"
         class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300" />
     <div class="w-full">
         <p class="font-bold">
@@ -704,14 +721,14 @@
         <div class="flex gap-2 w-full
         
         ">
-    <img src="./assets/guaranalitro.txt" alt="hamburguer"
+    <img src="./assets/refrigerante_guarana_antarctica_pet_1_litro_2344_1_39bbdf8b0a53541df58bb6e70c38ae25-removebg-preview.png" alt="hamburguer"
         class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300" />
     <div class="w-full">
         <p class="font-bold">
             guaraná 1L
         </p>
         <p class="text-sm">
-    
+                    
                         </p>
         <div class="flex items-center gap-2 justify-between mt-3">
             <p class="font-bold text-lg">
