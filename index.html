@@ -50,11 +50,39 @@
     <!--FIM DO HEADER-->
 
     <!--INICIO MENU-->
-    <h2 class="text-2xl md:text-3xl font-bold text-center mt-9 mb-6">
-        CARDÁPIO</h2>
-
-    <div id="menu">
+    <h2 class="text-2xl md:text-3xl font-bold text-center mt-9 mb-6"><button>
+        <a href="#" class="btn2"><span class="spn2">CARDÁPIO</span></a>
+      </button>
+        </h2>
+    <div id="menu">     
         <main class="grid grid-cols-1 md:grid-cols-2 gap-7 md:gap-10 mx-auto max-w-7xl px-2 mb-16">
+
+    <div class="flex gap-2">
+        <img src="./assets/xsalada.txt" alt="hamburguer X-Salada"
+            class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300" />
+        <div class="w-full">
+            <p class="font-bold">
+               X-Salada
+            </p>
+            <p class="text-sm">
+                Pão, hambúrguer industrial, queijo mussarela, cebola roxa, tomate, alface e molho especial.
+            </p>
+            <div class="flex items-center gap-2 justify-between mt-3">
+                <p class="font-bold text-lg">
+                    R$10.00
+                </p>
+                <button class="bg-gray-900 px-5 rounded add-to-cart-btn" 
+                data-name=" X-Salada"
+                data-price="10.00">
+                 <i
+                    class="fa fa-cart-plus text-lg text-white"></i>
+                    
+                </button>
+            </div>
+        </div>
+
+
+    </div>
             <div class="flex gap-2">
                 <img src="./assets/tradicional.txt
                 " alt="hamburguer"
@@ -84,7 +112,33 @@
 
             </div>
 
-
+            <div class="flex gap-2">
+                <img src="./assets/filefrango.txt" alt="hamburguer"
+                    class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300" />
+                <div class="w-full">
+                    <p class="font-bold">
+                        X filé de frango
+                    </p>
+                    <p class="text-sm">
+                        Pão, filé de frango em tiras, queijo mussarela,
+                         cebola roxa, tomate, alface e molho especial.
+                    </p>
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">
+                            R$14.00
+                        </p>
+                        <button class="bg-gray-900 px-5 rounded add-to-cart-btn" 
+                        data-name="X filé de frango"
+                        data-price="14.00">
+                         <i
+                            class="fa fa-cart-plus text-lg text-white"></i>
+                            
+                        </button>
+                    </div>
+                </div>
+        
+        
+            </div>
 
     <div class="flex gap-2">
         <img src="./assets/xfrango.txt" alt="hamburguer"
@@ -109,212 +163,7 @@
                 </button>
             </div>
         </div>
-
-
 </div>
-
-    <div class="flex gap-2">
-        <img src="./assets/chickenbacon.txt" alt="hamburguer Chicken bacon"
-            class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300" />
-        <div>
-            <p class="font-bold">
-                Chicken bacon
-            </p>
-            <p class="text-sm">
-                Pão, frango desfiado, ovo, bacon, queijo cheddar, tomate, alface e molho especial.
-            </p>
-            <div class="flex items-center gap-2 justify-between mt-3">
-                <p class="font-bold text-lg">
-                    R$24.00
-                </p>
-                <button class="bg-gray-900 px-5 rounded add-to-cart-btn" 
-                data-name="Chicken bacon"
-                data-price="24.00">
-                    <i
-                    class="fa fa-cart-plus text-lg text-white"></i>
-                    
-                </button>
-            </div>
-        </div>
-
-
-            </div>
-
-
-<div class="flex gap-2">
-    <img src="./assets/calabresa.txt" alt="hamburguer X calabresa"
-        class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300" />
-    <div class="w-full">
-        <p class="font-bold">
-            X calabresa
-        </p>
-        <p class="text-sm">
-            Pão, Hambúrguer industrial, queijo mussarela, ovo,<br> calabresa, cebola roxa, tomate, alface e molho especial.
-        </p>
-        <div class="flex items-center gap-2 justify-between mt-3">
-            <p class="font-bold text-lg">
-                R$15.00
-            </p>
-            <button class="bg-gray-900 px-5 rounded add-to-cart-btn" 
-            data-name="x calabresa"
-            data-price="15.00">
-                <i
-                class="fa fa-cart-plus text-lg text-white"></i>
-                
-            </button>
-        </div>
-    </div>
-
-
-    </div>
-
-    <div class="flex gap-2">
-        <img src="./assets/nordestino.txt" alt="hamburguer Nordestino Burguer"
-            class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300" />
-        <div class="w-full">
-            <p class="font-bold">
-                Nordestino Burguer
-            </p>
-            <p class="text-sm">
-                Pão, carne de sol desfiada, queijo coalho, cebola roxa, tomate, alface e molho especial.
-            </p>
-            <div class="flex items-center gap-2 justify-between mt-3">
-                <p class="font-bold text-lg">
-                    R$20.00
-                </p>
-                <button class="bg-gray-900 px-5 rounded add-to-cart-btn" 
-                data-name="Nordestino Burguer"
-                data-price="20.00">
-                 <i
-                    class="fa fa-cart-plus text-lg text-white"></i>
-                    
-                </button>
-            </div>
-        </div>
-
-
-    </div>
-
-
-    <div class="flex gap-2">
-    <img src="./assets/calabresaburguer.txt" alt="hamburguer calabresa Burguer"
-        class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300" />
-    <div>
-        <p class="font-bold">
-            Calabresa Burguer
-        </p>
-        <p class="text-sm">
-            Pão, blend artesanal moído com calabresa, queijo mussarela,
-                presunto, ovo, cebola caramelizada, tomate, alface e molho especial.</p>
-        <div class="flex items-center gap-2 justify-between mt-3">
-            <p class="font-bold text-lg">
-                R$22.00
-            </p>
-            <button class="bg-gray-900 px-5 rounded add-to-cart-btn" 
-            data-name="Calabresa Burguer"
-            data-price="22.00">
-                <i
-                class="fa fa-cart-plus text-lg text-white"></i>
-                
-            </button>
-        </div>
-    </div>
-
-
-</div>
-
-
-        
-
-
-    <div class="flex gap-2">
-        <img src="./assets/xsalada.txt" alt="hamburguer X-Salada"
-            class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300" />
-        <div class="w-full">
-            <p class="font-bold">
-               X-Salada
-            </p>
-            <p class="text-sm">
-                Pão, hambúrguer industrial, queijo mussarela, cebola roxa, tomate, alface e molho especial.
-            </p>
-            <div class="flex items-center gap-2 justify-between mt-3">
-                <p class="font-bold text-lg">
-                    R$10.00
-                </p>
-                <button class="bg-gray-900 px-5 rounded add-to-cart-btn" 
-                data-name=" X-Salada"
-                data-price="10.00">
-                 <i
-                    class="fa fa-cart-plus text-lg text-white"></i>
-                    
-                </button>
-            </div>
-        </div>
-
-
-    </div>
-
-
-             
-
-
-<div class="flex gap-2">
-    <img src="./assets/modadacasa.txt" alt="hamburguer A moda da casa duplo"
-        class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300" />
-    <div class="w-full">
-        <p class="font-bold">
-            A moda da casa duplo
-        </p>
-        <p class="text-sm">
-            Pão, blend artesanal duplo 100g cada, queijo cheddar duplo,
-                ovo, bacon, cebola caramelizada, tomate, alface e molho especial.
-        </p>
-        <div class="flex items-center gap-2 justify-between mt-3">
-            <p class="font-bold text-lg">
-                R$28.00
-            </p>
-            <button class="bg-gray-900 px-5 rounded add-to-cart-btn" 
-            data-name=" A moda da casa duplo"
-            data-price="28.00">
-                <i
-                class="fa fa-cart-plus text-lg text-white"></i>
-                
-            </button>
-        </div>
-    </div>
-
-
-    </div>
-
-
-    <div class="flex gap-2">
-        <img src="./assets/mexicano.txt" alt="hamburguer"
-            class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300" />
-        <div class="w-full">
-            <p class="font-bold">
-                Mexicano burguer
-            </p>
-            <p class="text-sm">
-                Pão, blend artesanal 100g, queijo cheddar duplo,
-                cebola caramelizada, alface, tomate e molho especial picante.
-            </p>
-            <div class="flex items-center gap-2 justify-between mt-3">
-                <p class="font-bold text-lg">
-                    R$20.00
-                </p>
-                <button class="bg-gray-900 px-5 rounded add-to-cart-btn" 
-                data-name=" Mexicano burguer"
-                data-price="20.00">
-                 <i
-                    class="fa fa-cart-plus text-lg text-white"></i>
-                    
-                </button>
-            </div>
-        </div>
-
-
-    </div>
-
 
 <div class="flex gap-2">
     <img src="./assets/bacon.txt" alt="hamburguer"
@@ -340,203 +189,259 @@
             </button>
         </div>
     </div>
-
-
-    </div>
+    </div>   
 
     <div class="flex gap-2">
-        <img src="./assets/filefrango.txt" alt="hamburguer"
+        <img src="./assets/calabresa.txt" alt="hamburguer X calabresa"
             class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300" />
         <div class="w-full">
             <p class="font-bold">
-                X filé de frango
+                X calabresa
             </p>
             <p class="text-sm">
-                Pão, filé de frango em tiras, queijo mussarela,
-                 cebola roxa, tomate, alface e molho especial.
-            </p>
-            <div class="flex items-center gap-2 justify-between mt-3">
-                <p class="font-bold text-lg">
-                    R$14.00
-                </p>
-                <button class="bg-gray-900 px-5 rounded add-to-cart-btn" 
-                data-name="X filé de frango"
-                data-price="14.00">
-                 <i
-                    class="fa fa-cart-plus text-lg text-white"></i>
-                    
-                </button>
-            </div>
-        </div>
-
-
-    </div>
-
-    <div class="flex gap-2">
-        <img src="./assets/modacasa.txt" alt="hamburguer"
-            class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300" />
-        <div class="w-full">
-            <p class="font-bold">
-                A moda da casa
-            </p>
-            <p class="text-sm">
-                Pão, blend artesanal 100g, bacon, ovo, queijo cheddar,
-                 cebola caramelizada, tomate, alface e molho especial.
-            </p>
-            <div class="flex items-center gap-2 justify-between mt-3">
-                <p class="font-bold text-lg">
-                    R$18.00
-                </p>
-                <button class="bg-gray-900 px-5 rounded add-to-cart-btn" 
-                data-name="A moda da casa"
-                data-price="18.00">
-                 <i
-                    class="fa fa-cart-plus text-lg text-white"></i>
-                    
-                </button>
-            </div>
-        </div>
-
-
-    </div>
-
-    <div class="flex gap-2">
-        <img src="./assets/brutoblende.txt" alt="hamburguer"
-            class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300" />
-        <div class="w-full">
-            <p class="font-bold">
-                Bruto burguer
-            </p>
-            <p class="text-sm">
-                Pão, blend artesanal 200g, bacon, queijo cheddar,
-                 cebola caramelizada, tomate, alface e molho especial
-            </p>
-            <div class="flex items-center gap-2 justify-between mt-3">
-                <p class="font-bold text-lg">
-                    R$26.00
-                </p>
-                <button class="bg-gray-900 px-5 rounded add-to-cart-btn" 
-                data-name="A moda da casa"
-                data-price="26.00">
-                 <i
-                    class="fa fa-cart-plus text-lg text-white"></i>
-                    
-                </button>
-            </div>
-        </div>
-
-
-    </div>
-
-
-    <div class="flex gap-2">
-        <img src="./assets/picanha.txt" alt="hamburguer"
-            class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300" />
-        <div class="w-full">
-            <p class="font-bold">
-                Picanha burguer
-            </p>
-            <p class="text-sm">
-                Pão, hambúrguer de picanha industrial 100g,
-             queijo cheddar, bacon, cebola caramelizada e molho barbecue
-            </p>
-            <div class="flex items-center gap-2 justify-between mt-3">
-                <p class="font-bold text-lg">
-                    R$22.00
-                </p>
-                <button class="bg-gray-900 px-5 rounded add-to-cart-btn" 
-                data-name="A moda da casa"
-                data-price="22.00">
-                 <i
-                    class="fa fa-cart-plus text-lg text-white"></i>
-                    
-                </button>
-            </div>
-        </div>
-
-
-    </div>
-
-    <div class="flex gap-2">
-        <img src="./assets/modaodacasa.txt" alt="hamburguer"
-            class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300" />
-        <div class="w-full">
-            <p class="font-bold">
-                Modão da casa
-            </p>
-            <p class="text-sm">
-                Pão, blend artesanal duplo, queijo cheddar duplo, 
-                bacon, cebola caramelizada e molho barbecue
-            </p>
-            <div class="flex items-center gap-2 justify-between mt-3">
-                <p class="font-bold text-lg">
-                    R$23.00
-                </p>
-                <button class="bg-gray-900 px-5 rounded add-to-cart-btn" 
-                data-name="A moda da casa"
-                data-price="23.00">
-                 <i
-                    class="fa fa-cart-plus text-lg text-white"></i>
-                    
-                </button>
-            </div>
-        </div>
-
-
-    </div>
-
-    <div class="flex gap-2">
-        <img src="./assets/franbacon.txt" alt="hamburguer"
-            class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300" />
-        <div class="w-full">
-            <p class="font-bold">
-                Fran bacon
-            </p>
-            <p class="text-sm">
-                Pão, frango desfiado, queijo cheddar, bacon, tomate, alface e molho especial
+                Pão, Hambúrguer industrial, queijo mussarela, ovo,<br> calabresa, cebola roxa, tomate, alface e molho especial.
             </p>
             <div class="flex items-center gap-2 justify-between mt-3">
                 <p class="font-bold text-lg">
                     R$15.00
                 </p>
                 <button class="bg-gray-900 px-5 rounded add-to-cart-btn" 
-                data-name="A moda da casa"
+                data-name="x calabresa"
                 data-price="15.00">
-                 <i
+                    <i
                     class="fa fa-cart-plus text-lg text-white"></i>
                     
                 </button>
             </div>
         </div>
+        </div>
 
+        <div class="flex gap-2">
+            <img src="./assets/franbacon.txt" alt="hamburguer"
+                class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300" />
+            <div class="w-full">
+                <p class="font-bold">
+                    Fran bacon
+                </p>
+                <p class="text-sm">
+                    Pão, frango desfiado, queijo cheddar, bacon, tomate, alface e molho especial
+                </p>
+                <div class="flex items-center gap-2 justify-between mt-3">
+                    <p class="font-bold text-lg">
+                        R$15.00
+                    </p>
+                    <button class="bg-gray-900 px-5 rounded add-to-cart-btn" 
+                    data-name="A moda da casa"
+                    data-price="15.00">
+                     <i
+                        class="fa fa-cart-plus text-lg text-white"></i>
+                        
+                    </button>
+                </div>
+            </div>
+        </div>
 
-    </div>
+        <div class="flex gap-2">
+            <img src="./assets/xfrangobacon.txt" alt="hamburguer"
+                class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300" />
+            <div class="w-full">
+                <p class="font-bold">
+                    X frango catupiry
+                </p>
+                <p class="text-sm">
+                    Pão, frango desfiado, catupiry, queijo mussarela, tomate, alface e molho especial
+                </p>
+                <div class="flex items-center gap-2 justify-between mt-3">
+                    <p class="font-bold text-lg">
+                        R$16.00
+                    </p>
+                    <button class="bg-gray-900 px-5 rounded add-to-cart-btn" 
+                    data-name="A moda da casa"
+                    data-price="16.00">
+                     <i
+                        class="fa fa-cart-plus text-lg text-white"></i>
+                        
+                    </button>
+                </div>
+            </div>
+        </div>
+    
+        <div class="flex gap-2">
+            <img src="./assets/nordestino.txt" alt="hamburguer Nordestino Burguer"
+                class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300" />
+            <div class="w-full">
+                <p class="font-bold">
+                    Nordestino Burguer
+                </p>
+                <p class="text-sm">
+                    Pão, carne de sol desfiada, queijo coalho, cebola roxa, tomate, alface e molho especial.
+                </p>
+                <div class="flex items-center gap-2 justify-between mt-3">
+                    <p class="font-bold text-lg">
+                        R$20.00
+                    </p>
+                    <button class="bg-gray-900 px-5 rounded add-to-cart-btn" 
+                    data-name="Nordestino Burguer"
+                    data-price="20.00">
+                     <i
+                        class="fa fa-cart-plus text-lg text-white"></i>
+                        
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="flex gap-2">
+            <img src="./assets/mexicano.txt" alt="hamburguer"
+                class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300" />
+            <div class="w-full">
+                <p class="font-bold">
+                    Mexicano burguer
+                </p>
+                <p class="text-sm">
+                    Pão, blend artesanal 100g, queijo cheddar duplo,
+                    cebola caramelizada, alface, tomate e molho especial picante.
+                </p>
+                <div class="flex items-center gap-2 justify-between mt-3">
+                    <p class="font-bold text-lg">
+                        R$20.00
+                    </p>
+                    <button class="bg-gray-900 px-5 rounded add-to-cart-btn" 
+                    data-name=" Mexicano burguer"
+                    data-price="20.00">
+                     <i
+                        class="fa fa-cart-plus text-lg text-white"></i>
+                        
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="flex gap-2">
+            <img src="./assets/calabresaburguer.txt" alt="hamburguer calabresa Burguer"
+                class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300" />
+            <div>
+                <p class="font-bold">
+                    Calabresa Burguer
+                </p>
+                <p class="text-sm">
+                    Pão, blend artesanal moído com calabresa, queijo mussarela,
+                        presunto, ovo, cebola caramelizada, tomate, alface e molho especial.</p>
+                <div class="flex items-center gap-2 justify-between mt-3">
+                    <p class="font-bold text-lg">
+                        R$22.00
+                    </p>
+                    <button class="bg-gray-900 px-5 rounded add-to-cart-btn" 
+                    data-name="Calabresa Burguer"
+                    data-price="22.00">
+                        <i
+                        class="fa fa-cart-plus text-lg text-white"></i>
+                        
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="flex gap-2">
+            <img src="./assets/picanha.txt" alt="hamburguer"
+                class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300" />
+            <div class="w-full">
+                <p class="font-bold">
+                    Picanha burguer
+                </p>
+                <p class="text-sm">
+                    Pão, hambúrguer de picanha industrial 100g,
+                 queijo cheddar, bacon, cebola caramelizada e molho barbecue
+                </p>
+                <div class="flex items-center gap-2 justify-between mt-3">
+                    <p class="font-bold text-lg">
+                        R$22.00
+                    </p>
+                    <button class="bg-gray-900 px-5 rounded add-to-cart-btn" 
+                    data-name="A moda da casa"
+                    data-price="22.00">
+                     <i
+                        class="fa fa-cart-plus text-lg text-white"></i>
+                        
+                    </button>
+                </div>
+            </div>
+        </div>
 
     <div class="flex gap-2">
-        <img src="./assets/xfrangobacon.txt" alt="hamburguer"
+        <img src="./assets/chickenbacon.txt" alt="hamburguer Chicken bacon"
             class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300" />
-        <div class="w-full">
+        <div>
             <p class="font-bold">
-                X frango catupiry
+                Chicken bacon
             </p>
             <p class="text-sm">
-                Pão, frango desfiado, catupiry, queijo mussarela, tomate, alface e molho especial
+                Pão, frango desfiado, ovo, bacon, queijo cheddar, tomate, alface e molho especial.
             </p>
             <div class="flex items-center gap-2 justify-between mt-3">
                 <p class="font-bold text-lg">
-                    R$16.00
+                    R$24.00
                 </p>
                 <button class="bg-gray-900 px-5 rounded add-to-cart-btn" 
-                data-name="A moda da casa"
-                data-price="16.00">
-                 <i
+                data-name="Chicken bacon"
+                data-price="24.00">
+                    <i
                     class="fa fa-cart-plus text-lg text-white"></i>
                     
                 </button>
+                </div>
             </div>
         </div>
 
-
+        <div class="flex gap-2">
+            <img src="./assets/brutoblende.txt" alt="hamburguer"
+                class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300" />
+            <div class="w-full">
+                <p class="font-bold">
+                    Bruto burguer
+                </p>
+                <p class="text-sm">
+                    Pão, blend artesanal 200g, bacon, queijo cheddar,
+                     cebola caramelizada, tomate, alface e molho especial
+                </p>
+                <div class="flex items-center gap-2 justify-between mt-3">
+                    <p class="font-bold text-lg">
+                        R$26.00
+                    </p>
+                    <button class="bg-gray-900 px-5 rounded add-to-cart-btn" 
+                    data-name="A moda da casa"
+                    data-price="26.00">
+                     <i
+                        class="fa fa-cart-plus text-lg text-white"></i>
+                        
+                    </button>
+                </div>
+            </div>
+        </div>
+    
+ <div class="flex gap-2">
+    <img src="./assets/modadacasa.txt" alt="hamburguer A moda da casa duplo"
+        class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300" />
+    <div class="w-full">
+        <p class="font-bold">
+            A moda da casa duplo
+        </p>
+        <p class="text-sm">
+            Pão, blend artesanal duplo 100g cada, queijo cheddar duplo,
+                ovo, bacon, cebola caramelizada, tomate, alface e molho especial.
+        </p>
+        <div class="flex items-center gap-2 justify-between mt-3">
+            <p class="font-bold text-lg">
+                R$28.00
+            </p>
+            <button class="bg-gray-900 px-5 rounded add-to-cart-btn" 
+            data-name=" A moda da casa duplo"
+            data-price="28.00">
+                <i
+                class="fa fa-cart-plus text-lg text-white"></i>
+                
+                </button>
+            </div>
+        </div>
     </div>
 
 <div class="flex gap-2">
@@ -560,11 +465,9 @@
                 <i
                 class="fa fa-cart-plus text-lg text-white"></i>
                 
-            </button>
+                </button>
+            </div>
         </div>
-    </div>
-
-
     </div>
 
     <div class="flex gap-2">
@@ -587,11 +490,10 @@
                     <i
                     class="fa fa-cart-plus text-lg text-white"></i>
                     
-                </button>
-            </div>
-        </div>
-
-
+                    </button>
+                      
+                </div>
+                </div>
             </div>
 
         </main>
@@ -1049,3 +951,5 @@
 </body>
 
 </html>
+
+
